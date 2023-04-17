@@ -78,7 +78,7 @@ elif algorithm == "Linear Regression":
         #Dataset
         st.subheader("📍 Data Preparation")
         st.write("Let's now read the data and assign it to a variable")
-        st.code("df = pd.read_csv('/Users/mariusrosopa/Desktop/Projects/Portfolio/datasets/weight-height.csv')")
+        st.code("df = pd.read_csv('datasets/weight-height.csv')")
         st.code("df.head(10)")
 
         df = pd.read_csv("datasets/weight-height.csv")
@@ -437,10 +437,10 @@ elif algorithm == "Logistic Regression":
         #Dataset
         st.subheader("📍 Data Preparation")
         st.write("Let's now read the dataset and assign it to a variable")
-        st.code("df = pd.read_csv('/Users/mariusrosopa/Desktop/Projects/Portfolio/datasets/insurance_data.csv')")
+        st.code("df = pd.read_csv('datasets/advertising.csv')")
         st.code("df.head(10)")
 
-        df = pd.read_csv("/Users/mariusrosopa/Desktop/Projects/Portfolio/datasets/advertising.csv")
+        df = pd.read_csv("datasets/advertising.csv")
         df.index = np.arange(1, len(df) + 1)
         st.write(df.head(10))
 
@@ -952,10 +952,10 @@ elif algorithm == "Decision Tree / Random Forest":
         #Dataset
         st.subheader("📍 Data Preparation")
         st.write("Let's now read the dataset and assign it to variables")
-        st.code("df = pd.read_csv('/Users/mariusrosopa/Desktop/Projects/Portfolio/datasets/train_u6lujuX_CVtuZ9i.csv') \n"
+        st.code("df = pd.read_csv('datasets/train_u6lujuX_CVtuZ9i.csv') \n"
                 "df.index = np.arange(1, len(df_train) + 1)")
         
-        df = pd.read_csv("/Users/mariusrosopa/Desktop/Projects/Portfolio/datasets/train_u6lujuX_CVtuZ9i.csv")
+        df = pd.read_csv("datasets/train_u6lujuX_CVtuZ9i.csv")
         df.index = np.arange(1, len(df) + 1)
 
         st.code("df.head(10)")
