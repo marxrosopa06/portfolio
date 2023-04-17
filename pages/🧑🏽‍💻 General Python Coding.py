@@ -144,4 +144,4 @@ elif selection == "Data Hub":
     st.video(video_bytes_data_hub)
     st.caption(":red[**Note: Actual data had to be redacted to ensure privacy**]")
 
-    st.subheader("You may find the full script on my Github page")
+    st.subheader("You may find the full script for the Data Hub in my Github repo: https://github.com/marxrosopa06/portfolio/tree/main/data_hub")
