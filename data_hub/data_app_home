@@ -59,7 +59,7 @@ with col1:
 
     st.subheader("What does it do?")
     st.markdown(
-    "It constructs a SQL code based on the selections (fields, filters, etc.) you provide, which is then automated, by a push of a button, to query from the Socrates database. \n"
+    "It constructs a SQL code based on the selections (fields, filters, etc.) you provide, which is then automated, by a push of a button, to query from the database. \n"
     "It uses the Python framework **databricks-sql-connector** to connect to this database via Databricks. \n"
     "Through this framework, the constructed SQL code is then finally used to return your desired data!"
     )        
