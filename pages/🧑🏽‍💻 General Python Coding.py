@@ -137,9 +137,4 @@ elif selection == "Data Hub":
              "for our team, and wait for their reports to be sent (takes days, depending on the priority and team's availability).")
     st.write("I was able to :green[**develop a fully-working web app**] and even got the chance to present this to my higher-ups. Unfortunately, it didn't progress to final stage \n"
              "(approval and actual utilization) 😢")
-    st.subheader("Here's a video showing the web platform in action")
-    video_data_hub = open('data_hub.mp4', 'rb')
-    video_bytes_data_hub = video_data_hub.read()
-
-    st.video(video_bytes_data_hub)
-    st.caption(":red[**Note: Actual data had to be redacted to ensure privacy**]")
+    st.subheader("Video of how this app works is available upon request.")
