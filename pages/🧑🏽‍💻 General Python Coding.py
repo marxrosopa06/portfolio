@@ -124,6 +124,8 @@ elif selection == "Data Collator":
     video_bytes_data_collator = video_data_collator.read()
     
     st.video(video_bytes_data_collator)
+     
+    st.caption(":red[**Note: Actual names, data types, fields, had to be altered for privacy reasons. Values are simply generic.**]")
 
 
 
