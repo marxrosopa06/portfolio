@@ -40,7 +40,7 @@ elif selection == "Data Collator":
             "import pandas as pd \n"
             " \n"
             "#Change every week and quarter \n"
-            "main_folder = '/Users/mariusrosopa/Desktop/WoW Forecast/' \n"
+            "main_folder = '/Users/mariusrosopa/Desktop/Forecast/' \n"
             "current_week = 4 \n"
             "current_quarter_year = 'Q2 2023' \n"
             "current_week_folder = 'W' + str(current_week) + ' ' + '('' + current_quarter_year + ')/'' \n"
