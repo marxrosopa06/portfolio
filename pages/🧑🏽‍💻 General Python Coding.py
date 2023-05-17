@@ -84,7 +84,7 @@ elif selection == "Data Collator":
             "   for filename in filename_unique_list: \n"
             "       if map[0] in filename: \n"
             "           final_mapping[filename] = map[1] \n")
-    st.caption("**Example: Product name is :orange[**'product1abc'**]. It's file name is :orange[**'CLARI_EXPORT_2023_FORECAST_product1abc_Dec01-Dec312023_includes_all_columns.csv'**]. The script \n"
+    st.caption("**Example: Product name is :orange[**'product1abc'**]. It's file name is :orange[**'EXPORT_2023_FORECAST_product1abc_Dec01-Dec312023_includes_all_columns.csv'**]. The script \n"
                "looks for the product name in the file name and once found, it will append the product name in the newly added file name column in the master file. This is to \n"
                "to know from which file did the specific data come from**")
     
@@ -105,10 +105,10 @@ elif selection == "Data Collator":
             "dfs_cleaned_2 = dfs_cleaned_1.loc[dfs_cleaned_1['Week']==current_week] \n"
             " \n"
             "#Data Type = Closed, Forecast Value \n"
-            "dfs_cleaned_3 = dfs_cleaned_2.loc[(dfs_cleaned_2['Data Type']=='Closed') | (dfs_cleaned_2['Data Type']=='Forecast Value')] \n"
+            "dfs_cleaned_3 = dfs_cleaned_2.loc[(dfs_cleaned_2['Data Type']=='type1') | (dfs_cleaned_2['Data Type']=='type5')] \n"
             " \n"
             "#Field = Exp/Upgrade Outlook, New Outlook \n"
-            "final_df = dfs_cleaned_3.loc[(dfs_cleaned_3['Field']=='Exp/Upgrade Outlook') | (dfs_cleaned_3['Field']=='New Outlook')] \n"
+            "final_df = dfs_cleaned_3.loc[(dfs_cleaned_3['Field']=='field2') | (dfs_cleaned_3['Field']=='field4')] \n"
             " \n"
             "#Final data clean \n"
             "final_df.reset_index(drop=True, inplace=True) \n"
